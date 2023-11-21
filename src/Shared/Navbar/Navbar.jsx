@@ -1,9 +1,18 @@
 import navLogo from "../../assets/navLogo.svg";
-
+import gradientbg from "../../assets/gradientbg.svg";
 const Navbar = () => {
   return (
-    <div className="px-16">
-      <div className="navbar bg-base-100">
+    <div
+      className="px-0 lg:px-16 pb-24"
+      // style={}
+      style={{
+        fontFamily: "Poppins",
+        background: `url(${gradientbg})`,
+        backgroundRepeat: "repeat-x",
+        backgroundPosition: "bottom",
+      }}
+    >
+      <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">

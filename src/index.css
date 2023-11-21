@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-divider {
+  border-top: 1px solid #ffffff; /* White color */
+}
