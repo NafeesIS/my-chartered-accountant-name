@@ -33,8 +33,8 @@ const JoinUs = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 justify-center items-center mx-auto w-full lg:px-16 px-4 md:px-2">
-          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center">
-            <span className="absolute top-[-10px] left-[-10px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
+          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
+            <span className="absolute top-[-10px] left-[-5px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
               1<sup>st</sup>
             </span>
             <div className="card-body text-center">
@@ -63,8 +63,8 @@ const JoinUs = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center">
-            <span className="absolute top-[-10px] left-[-10px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
+          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
+            <span className="absolute top-[-10px] left-[-5px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
               2<sup>nd</sup>
             </span>
             <div className="card-body text-center">
@@ -90,8 +90,8 @@ const JoinUs = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center">
-            <span className="absolute top-[-10px] left-[-10px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
+          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
+            <span className="absolute top-[-10px] left-[-5px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
               3<sup>rd</sup>
             </span>
             <div className="card-body text-center">
@@ -118,8 +118,8 @@ const JoinUs = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center">
-            <span className="absolute top-[-10px] left-[-10px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
+          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
+            <span className="absolute top-[-10px] left-[-5px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
               4<sup>th</sup>
             </span>
             <div className="card-body text-center">
@@ -146,8 +146,8 @@ const JoinUs = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center">
-            <span className="absolute top-[-10px] left-[-10px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
+          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
+            <span className="absolute top-[-10px] left-[-5px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
               5<sup>th</sup>
             </span>
             <div className="card-body text-center">
@@ -176,8 +176,8 @@ const JoinUs = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center">
-            <span className="absolute top-[-10px] left-[-10px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
+          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
+            <span className="absolute top-[-10px] left-[-5px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
               6<sup>th</sup>
             </span>
             <div className="card-body text-center">

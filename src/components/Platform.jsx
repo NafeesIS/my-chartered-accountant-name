@@ -9,8 +9,9 @@ const Platform = () => {
   return (
     <div className="lg:px-16 px-4 my-32 lg:flex flex-none">
       <div className="max-w-xl mx-auto lg:mb-0 mb-10">
-        <h1 className="text-6xl font-bold">
+        <h1 className="text-6xl font-bold mb-3">
           <span
+            className="mr-3"
             style={{
               background: "linear-gradient(to right, #0076ce, #9400d3)",
               WebkitBackgroundClip: "text",
@@ -32,7 +33,7 @@ const Platform = () => {
               className="logo w-10 lg:w-auto lg:mr-4 mr-1"
               alt="search"
             />
-            <p className="lg:pr-24 p-0">
+            <p className="lg:pr-1 p-0">
               <span className="font-bold">SEARCH</span> for vital company
               information
             </p>
@@ -43,9 +44,9 @@ const Platform = () => {
               className="logo w-10 lg:w-auto lg:mr-4 mr-1"
               alt="search"
             />
-            <p className="lg:pr-24 p-0">
-              <span className="font-bold">SEARCH</span> for vital company
-              information
+            <p className="lg:pr-1 p-0">
+              <span className="font-bold">CONNECT</span> with the resources to
+              meet your business needs
             </p>
           </div>
           <div className="flex max-w-xs text-xl items-start">
@@ -54,9 +55,9 @@ const Platform = () => {
               className="logo w-10 lg:w-auto lg:mr-4 mr-1"
               alt="search"
             />
-            <p className="lg:pr-24 p-0">
-              <span className="font-bold">SEARCH</span> for vital company
-              information
+            <p className="lg:pr-1 p-0">
+              <span className="font-bold">ACADEMY </span>to give you the skills
+              for success in your career
             </p>
           </div>
           <div className="flex max-w-xs text-xl items-start">
@@ -65,17 +66,17 @@ const Platform = () => {
               className="logo w-10 lg:w-auto lg:mr-4 mr-1"
               alt="search"
             />
-            <p className="lg:pr-24 p-0">
-              <span className="font-bold">SEARCH</span> for vital company
-              information
+            <p className="lg:pr-1 p-0">
+              <span className="font-bold">RESEARCH</span> and generate reports
+              that drive growth
             </p>
           </div>
         </div>
       </div>
-      <div>
+      <div className="mx-0 md:mx-20 lg:mx-2">
         <div className="flex justify-end items-center">
-          <div>
-            <div className="space-y-4 flex flex-col justify-end items-end">
+          <div className="max-w-xs">
+            <div className="space-y-4 flex flex-col justify-end items-end w-full">
               <p>
                 <span className="bg-[#efd9f7] rounded-tl-lg rounded-tr-lg rounded-bl-lg text-sm p-2">
                   Hey, check out loreumipsum services.
@@ -92,23 +93,11 @@ const Platform = () => {
                 </span>
               </p>
             </div>
-            {/* <div className="mt-9 space-y-4 flex flex-col justify-end items-end pl-8">
-              <p>
-                <span className="bg-[#ddf3ff] rounded-tl-lg rounded-tr-lg rounded-bl-lg text-sm p-2">
-                  I got a perfect analysis report from them too
-                </span>
-              </p>
-              <p>
-                <span className="bg-[#ddf3ff] rounded-tl-lg rounded-tr-lg rounded-bl-lg text-sm p-2">
-                  Oh, that's great.
-                </span>
-              </p>
-            </div> */}
           </div>
           <img src={student} className="logo lg:w-auto w-28" alt="search" />
         </div>
         <div>
-          <div className="mt-9 lg:mr-56 mr-20 space-y-4 flex flex-col justify-end items-end pl-8 lg:mt-[-50px]">
+          <div className="mt-9 lg:mr-56 mr-20 space-y-4 flex flex-col lg:justify-end lg:items-end justify-start items-start pl-8 lg:mt-[-50px] mb-3 lg:mb-0">
             <p>
               <span className="bg-[#ddf3ff] rounded-tl-lg rounded-tr-lg rounded-bl-lg text-sm p-2">
                 I got a perfect analysis report from them too

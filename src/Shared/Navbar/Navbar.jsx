@@ -5,12 +5,6 @@ const Navbar = () => {
     <div
       className="px-0 lg:px-16 pb-24"
       // style={}
-      style={{
-        fontFamily: "Poppins",
-        background: `url(${gradientbg})`,
-        backgroundRepeat: "repeat-x",
-        backgroundPosition: "bottom",
-      }}
     >
       <div className="navbar">
         <div className="navbar-start">

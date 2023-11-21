@@ -11,12 +11,14 @@ const Header = () => {
       style={{
         background: `url(${gradientbg})`,
         backgroundRepeat: "repeat-x",
-        backgroundPosition: "bottom",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        // height: "100vh",
       }}
     >
       <Navbar></Navbar>
       <div
-        className="px-0 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24 justify-center items-center"
+        className="px-0 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-16 mb-36 justify-center items-center"
         style={{
           background: `url(${conicbg})`,
           backgroundRepeat: "repeat-x",
@@ -49,11 +51,11 @@ const Header = () => {
             <input
               type="text"
               placeholder="Search by name"
-              className="input w-full"
+              className="border-0 w-full placeholder:px-4 rounded-xl"
             />
             <button
               type="submit"
-              className="btn text-base font-bold bg-[#0076ce] hover:bg-[#0076ce] text-white"
+              className="btn text-base font-bold bg-[#0076ce] hover:bg-[#0076ce] text-white w-32 h-16 rounded-xl"
             >
               Search
             </button>
