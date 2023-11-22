@@ -1,7 +1,6 @@
 import person1 from "../assets/person1.svg";
 import person2 from "../assets/person2.svg";
 import person3 from "../assets/person3.svg";
-import gradientbg from "../assets/bg1.svg";
 import conicbg from "../assets/conicbg.svg";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
@@ -35,7 +34,7 @@ const Header = () => {
   return (
     <div
       style={{
-        background: `url(${gradientbg})`,
+        background: `url('https://svgshare.com/i/1007.svg')`,
         backgroundRepeat: "repeat-x",
         backgroundPosition: "center",
         backgroundSize: "cover",

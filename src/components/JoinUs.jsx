@@ -1,12 +1,10 @@
-import wavebg from "../assets/bg2.svg";
-
 const JoinUs = () => {
   return (
     <div>
       <div
         className=" mx-auto max-w-full"
         style={{
-          background: `url(${wavebg})`,
+          background: `url(https://svgshare.com/i/101U.svg)`,
           backgroundRepeat: "repeat-x",
           backgroundPosition: "bottom",
         }}
