@@ -1,4 +1,4 @@
-import wavebg from "../assets/wavebg.svg";
+import wavebg from "../assets/bg2.svg";
 
 const JoinUs = () => {
   return (
