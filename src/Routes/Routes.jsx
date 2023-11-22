@@ -16,7 +16,9 @@ const router = createBrowserRouter([
         path: "/accountant_details/:id",
         element: <AccountantDetails></AccountantDetails>,
         loader: ({ params }) =>
-          fetch(`http://localhost:3000/accountant_details/${params?.id}`),
+          fetch(
+            `https://my-chartered-accountant-app-server.vercel.app/accountant_details/${params?.id}`
+          ),
       },
     ],
   },

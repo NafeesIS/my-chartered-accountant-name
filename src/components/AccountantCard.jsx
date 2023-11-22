@@ -5,7 +5,9 @@ const AccountantCard = () => {
   const [accountants, setAccountants] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/accountant_details")
+    fetch(
+      "https://my-chartered-accountant-app-server.vercel.app/accountant_details"
+    )
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);

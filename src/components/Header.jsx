@@ -16,7 +16,9 @@ const Header = () => {
     if (input === "") {
       return;
     }
-    fetch(`http://localhost:3000/accountant_by_name?name=${input}`)
+    fetch(
+      `https://my-chartered-accountant-app-server.vercel.app/accountant_by_name?name=${input}`
+    )
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
@@ -30,14 +32,6 @@ const Header = () => {
         console.error("Error fetching data:", error);
       });
   }, [input]);
-
-  const handleSearchBarFocus = () => {
-    setIsSearchBarFocused(true);
-  };
-
-  const handleSearchBarBlur = () => {
-    setIsSearchBarFocused(false);
-  };
 
   return (
     <div
@@ -95,22 +89,24 @@ const Header = () => {
                 Search
               </button>
             </form>
-            <div>
-              {accountants.map((accountant) => (
-                <Link
-                  to={`/accountant_details/${accountant._id}`}
-                  key={accountant._id}
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  <div className="bg-white rounded-xl p-3 my-2">
-                    {accountant.name}
-                  </div>
-                </Link>
-              ))}
-            </div>
+            {input.length > 0 && (
+              <div className="absolute w-full">
+                {accountants.map((accountant) => (
+                  <Link
+                    to={`/accountant_details/${accountant._id}`}
+                    key={accountant._id}
+                    style={{ textDecoration: "none", color: "inherit" }}
+                  >
+                    <div className="bg-white rounded-xl p-1 my-1 text-xl w-full">
+                      {accountant.name}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
         </div>
-        <div className="flex gap-4 max-w-full px-4 pr-12 md:pr-4 lg:pr-0 lg:px-0">
+        <div className="flex gap-4 max-w-full px-4 mt-12 lg:mt-0 pr-12 md:pr-4 lg:pr-0 lg:px-0">
           <img src={person1} className="logo mt-16 w-1/3" alt="person1" />
           <img src={person2} className="logo mb-10 w-1/3" alt="person2" />
           <img src={person3} className="logo mt-10 w-1/3" alt="person3" />
