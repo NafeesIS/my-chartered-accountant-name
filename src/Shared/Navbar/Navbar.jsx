@@ -1,5 +1,4 @@
 import navLogo from "../../assets/navLogo.svg";
-import gradientbg from "../../assets/gradientbg.svg";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (

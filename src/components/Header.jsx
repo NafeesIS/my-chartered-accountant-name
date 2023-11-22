@@ -10,7 +10,6 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [input, setInput] = useState("");
   const [accountants, setAccountants] = useState([]);
-  const [isSearchBarFocused, setIsSearchBarFocused] = useState(false);
   console.log(accountants);
   useEffect(() => {
     if (input === "") {
