@@ -111,7 +111,7 @@ const Platform = () => {
           </div>
           <img
             src={teacher}
-            className="logo lg:w-auto lg:mt-[-10px] w-28 mt-0"
+            className="logo lg:w-auto lg:mt-[-20px] w-28 mt-0"
             alt="search"
           />
         </div>

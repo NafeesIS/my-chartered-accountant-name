@@ -4,8 +4,7 @@ import Navbar from "../Shared/Navbar/navbar";
 
 const Main = () => {
   return (
-    <div className="bg-[#fafbfc]">
-      {/* <Navbar></Navbar> */}
+    <div className="bg-[#fafbfc] max-w-[1536px] mx-auto">
       <Outlet></Outlet>
       <Footer></Footer>
     </div>

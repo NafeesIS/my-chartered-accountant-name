@@ -4,8 +4,41 @@ import person3 from "../assets/person3.svg";
 import gradientbg from "../assets/gradientbg.svg";
 import conicbg from "../assets/conicbg.svg";
 import Navbar from "../Shared/Navbar/navbar";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
+  const [input, setInput] = useState("");
+  const [accountants, setAccountants] = useState([]);
+  const [isSearchBarFocused, setIsSearchBarFocused] = useState(false);
+  console.log(accountants);
+  useEffect(() => {
+    if (input === "") {
+      return;
+    }
+    fetch(`http://localhost:3000/accountant_by_name?name=${input}`)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((result) => {
+        setAccountants(result);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, [input]);
+
+  const handleSearchBarFocus = () => {
+    setIsSearchBarFocused(true);
+  };
+
+  const handleSearchBarBlur = () => {
+    setIsSearchBarFocused(false);
+  };
+
   return (
     <div
       style={{
@@ -47,19 +80,35 @@ const Header = () => {
               CA’s for compliance support
             </p>
           </div>
-          <form className="w-full flex justify-between border border-[#BFBFBF] rounded-xl">
-            <input
-              type="text"
-              placeholder="Search by name"
-              className="border-0 w-full placeholder:px-4 rounded-xl"
-            />
-            <button
-              type="submit"
-              className="btn text-base font-bold bg-[#0076ce] hover:bg-[#0076ce] text-white w-32 h-16 rounded-xl"
-            >
-              Search
-            </button>
-          </form>
+          <div className="relative">
+            <form className="w-full flex justify-between border border-[#BFBFBF] rounded-xl">
+              <input
+                type="search"
+                placeholder="Search by name"
+                className="border-0 w-full placeholder:px-2 rounded-xl px-4"
+                onChange={(e) => setInput(e.target.value)}
+              />
+              <button
+                type="submit"
+                className="btn text-base font-bold bg-[#0076ce] hover:bg-[#0076ce] text-white w-32 h-16 rounded-xl"
+              >
+                Search
+              </button>
+            </form>
+            <div>
+              {accountants.map((accountant) => (
+                <Link
+                  to={`/accountant_details/${accountant._id}`}
+                  key={accountant._id}
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <div className="bg-white rounded-xl p-3 my-2">
+                    {accountant.name}
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
         <div className="flex gap-4 max-w-full px-4 pr-12 md:pr-4 lg:pr-0 lg:px-0">
           <img src={person1} className="logo mt-16 w-1/3" alt="person1" />

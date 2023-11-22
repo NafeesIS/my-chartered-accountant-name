@@ -1,5 +1,6 @@
 import navLogo from "../../assets/navLogo.svg";
 import gradientbg from "../../assets/gradientbg.svg";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div
@@ -67,7 +68,9 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <img src={navLogo} className="logo mr-2" alt="logo" />
+          <Link to="/">
+            <img src={navLogo} className="logo mr-2" alt="logo" />
+          </Link>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 font-bold text-lg space-x-2">
               <li tabIndex={0}>
