@@ -3,9 +3,9 @@ import person2 from "../assets/person2.svg";
 import person3 from "../assets/person3.svg";
 import gradientbg from "../assets/gradientbg.svg";
 import conicbg from "../assets/conicbg.svg";
-import Navbar from "../Shared/Navbar/navbar";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Navbar from "../Shared/Navbar/Navbar";
 
 const Header = () => {
   const [input, setInput] = useState("");

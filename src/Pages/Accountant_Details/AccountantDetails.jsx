@@ -1,8 +1,8 @@
 import { useLoaderData } from "react-router-dom";
-import Navbar from "../../Shared/Navbar/navbar";
 import star from "../../assets/star-fill.svg";
 import calendar from "../../assets/calendar-2-line.svg";
 import AccountantCard from "../../components/AccountantCard";
+import Navbar from "../../Shared/Navbar/Navbar";
 
 const AccountantDetails = () => {
   const accountantDetails = useLoaderData();
