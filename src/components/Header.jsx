@@ -1,7 +1,6 @@
 import person1 from "../assets/person1.svg";
 import person2 from "../assets/person2.svg";
 import person3 from "../assets/person3.svg";
-import conicbg from "../assets/conicbg.svg";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../Shared/Navbar/Navbar";
@@ -45,7 +44,7 @@ const Header = () => {
       <div
         className="px-0 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-16 mb-36 justify-center items-center"
         style={{
-          background: `url(${conicbg})`,
+          background: `url(https://svgshare.com/i/100w.svg)`,
           backgroundRepeat: "repeat-x",
           backgroundPosition: "bottom",
         }}
