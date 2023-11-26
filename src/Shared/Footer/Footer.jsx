@@ -6,7 +6,10 @@ import instaLogo from "../../assets/insta.svg";
 
 const Footer = () => {
   return (
-    <div className="text-white" style={{ fontFamily: "Poppins" }}>
+    <div
+      className="text-white max-w-[1536px]"
+      style={{ fontFamily: "Poppins" }}
+    >
       <div className="lg:px-16 px-2 bg-gradient-to-r from-[#0076ce] to-[#9400d3] pb-6">
         <footer className="footer py-10">
           <aside>

@@ -7,7 +7,7 @@ import student from "../assets/Student.svg";
 
 const Platform = () => {
   return (
-    <div className="lg:px-16 px-4 my-32 lg:flex flex-none">
+    <div className="lg:px-16 px-4 my-32 lg:flex flex-none max-w-[1536px]">
       <div className="max-w-xl mx-auto lg:mb-0 mb-10">
         <h1 className="text-6xl font-bold mb-3">
           <span

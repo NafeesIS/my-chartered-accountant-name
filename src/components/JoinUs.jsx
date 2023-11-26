@@ -2,7 +2,7 @@ const JoinUs = () => {
   return (
     <div>
       <div
-        className=" mx-auto max-w-full"
+        className="max-w-[1536px]"
         style={{
           background: `url(https://svgshare.com/i/101U.svg)`,
           backgroundRepeat: "repeat-x",
@@ -31,7 +31,7 @@ const JoinUs = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 justify-center items-center mx-auto w-full lg:px-16 px-4 md:px-2">
-          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
+          <div className="card w-80 sm:w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
             <span className="absolute top-[-10px] left-[-5px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
               1<sup>st</sup>
             </span>
@@ -42,7 +42,7 @@ const JoinUs = () => {
                   Invested shareholders must confirm payment and office address
                 </p>
               </div>
-              <div className="flex text-start  justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-28 h-24 px-4">
+              <div className="flex text-start  justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 sm:h-24 px-4">
                 <div className="max-w-[95px]">
                   <h5 className="font-bold text-lg text-[#0076ce]">Due Date</h5>
                   <p className="font-normal text-base">Within 180 days</p>
@@ -61,7 +61,7 @@ const JoinUs = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
+          <div className="card w-80 sm:w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
             <span className="absolute top-[-10px] left-[-5px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
               2<sup>nd</sup>
             </span>
@@ -72,7 +72,7 @@ const JoinUs = () => {
                   Company informs new auditor and submits ADT.1 form to ROC.
                 </p>
               </div>
-              <div className="flex text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-28 h-24 px-4">
+              <div className="flex text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4">
                 <div className="max-w-[95px]">
                   <h5 className="font-bold text-lg text-[#0076ce]">Due Date</h5>
                   <p className="font-normal text-base">Within 30 days</p>
@@ -88,7 +88,7 @@ const JoinUs = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
+          <div className="card w-80 sm:w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
             <span className="absolute top-[-10px] left-[-5px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
               3<sup>rd</sup>
             </span>
@@ -100,7 +100,7 @@ const JoinUs = () => {
                   verification
                 </p>
               </div>
-              <div className="flex text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-28 h-24 px-4">
+              <div className="flex text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4">
                 <div className="max-w-[100px]">
                   <h5 className="font-bold text-lg text-[#0076ce]">Due Date</h5>
                   <p className="font-normal text-base">Every Year</p>
@@ -116,7 +116,7 @@ const JoinUs = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
+          <div className="card w-80 sm:w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
             <span className="absolute top-[-10px] left-[-5px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
               4<sup>th</sup>
             </span>
@@ -128,7 +128,7 @@ const JoinUs = () => {
                   confirm details.
                 </p>
               </div>
-              <div className="flex text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-28 h-24 px-4">
+              <div className="flex text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4">
                 <div className="max-w-[95px]">
                   <h5 className="font-bold text-lg text-[#0076ce]">Due Date</h5>
                   <p className="font-normal text-base">Within 30 days</p>
@@ -144,7 +144,7 @@ const JoinUs = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
+          <div className="card w-80 sm:w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
             <span className="absolute top-[-10px] left-[-5px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
               5<sup>th</sup>
             </span>
@@ -155,7 +155,7 @@ const JoinUs = () => {
                   It's like an official report card for a company's documents
                 </p>
               </div>
-              <div className="flex gap-6 text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-28 h-24 px-4">
+              <div className="flex gap-6 text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4">
                 <div className="max-w-[100px]">
                   <h5 className="font-bold text-lg text-[#0076ce]">Due Date</h5>
                   <p className="font-normal text-base">
@@ -174,7 +174,7 @@ const JoinUs = () => {
               </div>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
+          <div className="card w-80 sm:w-96 bg-base-100 shadow-lg flex flex-col items-center justify-center justify-self-center self-center">
             <span className="absolute top-[-10px] left-[-5px] bg-gradient-to-r from-[#0076ce] to-[#9400d3] text-white py-1 px-3 rounded-lg font-bold text-2xl">
               6<sup>th</sup>
             </span>
@@ -186,7 +186,7 @@ const JoinUs = () => {
                   registrar.
                 </p>
               </div>
-              <div className="flex gap-6 text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-28 h-24 px-4">
+              <div className="flex gap-6 text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4">
                 <div className="max-w-[100px]">
                   <h5 className="font-bold text-lg text-[#0076ce]">Due Date</h5>
                   <p className="font-normal text-base">

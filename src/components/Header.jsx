@@ -32,6 +32,7 @@ const Header = () => {
 
   return (
     <div
+      className="max-w-[1536px]"
       style={{
         background: `url('https://svgshare.com/i/1007.svg')`,
         backgroundRepeat: "repeat-x",

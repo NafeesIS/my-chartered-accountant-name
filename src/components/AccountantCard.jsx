@@ -23,10 +23,10 @@ const AccountantCard = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 mx-auto justify-self-center self-center">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-4 mx-auto justify-self-center self-center">
       {accountants.map((accountant) => (
         <div key={accountant._id}>
-          <div className="card card-compact w-96 h-full bg-base-100 shadow-xl">
+          <div className="card card-compact w-72 lg:w-96 h-full bg-base-100 shadow-xl">
             <figure>
               <img src={accountant.image} alt="accountant" />
             </figure>

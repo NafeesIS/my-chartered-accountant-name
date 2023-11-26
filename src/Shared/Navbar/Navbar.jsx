@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div
-      className="px-0 lg:px-16 pb-24"
+      className="px-0 lg:px-16 pb-24 max-w-[1536px]"
       // style={}
     >
       <div className="navbar">
@@ -30,38 +30,38 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Parent</a>
+                <a>Solutions</a>
                 <ul className="p-2">
                   <li>
-                    <a>Submenu 1</a>
+                    <a>Solutions 1</a>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <a>Solutions 2</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a>Parent</a>
+                <a>Features</a>
                 <ul className="p-2">
                   <li>
-                    <a>Submenu 1</a>
+                    <a>Features 1</a>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <a>Features 2</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a>Item 3</a>
+                <a>Blog</a>
               </li>
               <li>
-                <a>Parent</a>
+                <a>About</a>
                 <ul className="p-2">
                   <li>
-                    <a>Submenu 1</a>
+                    <a>About 1</a>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <a>About 2</a>
                   </li>
                 </ul>
               </li>
@@ -77,10 +77,10 @@ const Navbar = () => {
                   <summary>Solutions</summary>
                   <ul className="p-2">
                     <li>
-                      <a>Submenu 1</a>
+                      <a>Solutions 1</a>
                     </li>
                     <li>
-                      <a>Submenu 2</a>
+                      <a>Solutions 2</a>
                     </li>
                   </ul>
                 </details>
@@ -90,10 +90,10 @@ const Navbar = () => {
                   <summary>Features</summary>
                   <ul className="p-2">
                     <li>
-                      <a>Submenu 1</a>
+                      <a>Features 1</a>
                     </li>
                     <li>
-                      <a>Submenu 2</a>
+                      <a>Features 2</a>
                     </li>
                   </ul>
                 </details>
@@ -106,10 +106,10 @@ const Navbar = () => {
                   <summary>About</summary>
                   <ul className="p-2">
                     <li>
-                      <a>Submenu 1</a>
+                      <a>About 1</a>
                     </li>
                     <li>
-                      <a>Submenu 2</a>
+                      <a>About 2</a>
                     </li>
                   </ul>
                 </details>
@@ -117,11 +117,11 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="navbar-end ">
-          <a className="btn btn-outline font-bold text-base rounded-xl  text-[#0076ce] border-[1.5px] hover:bg-[#0076ce]">
+        <div className="navbar-end">
+          <a className="btn btn-outline font-bold text-base rounded-xl  text-[#0076ce] border-[1.5px] hover:bg-[#0076ce] w-16 sm:w-auto">
             Login
           </a>
-          <a className="btn bg-[#0076ce] hover:bg-[#0076ce] text-white font-bold text-base rounded-xl ml-4">
+          <a className="btn bg-[#0076ce] hover:bg-[#0076ce] text-white font-bold  text-base rounded-xl ml-4 w-16 sm:w-auto">
             Register
           </a>
         </div>
