@@ -42,7 +42,7 @@ const JoinUs = () => {
                   Invested shareholders must confirm payment and office address
                 </p>
               </div>
-              <div className="flex text-start  justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 sm:h-24 px-4">
+              <div className="flex text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 sm:h-24 px-4 mt-auto">
                 <div className="max-w-[95px]">
                   <h5 className="font-bold text-lg text-[#0076ce]">Due Date</h5>
                   <p className="font-normal text-base">Within 180 days</p>
@@ -72,7 +72,7 @@ const JoinUs = () => {
                   Company informs new auditor and submits ADT.1 form to ROC.
                 </p>
               </div>
-              <div className="flex text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4">
+              <div className="flex text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4 mt-auto">
                 <div className="max-w-[95px]">
                   <h5 className="font-bold text-lg text-[#0076ce]">Due Date</h5>
                   <p className="font-normal text-base">Within 30 days</p>
@@ -100,7 +100,7 @@ const JoinUs = () => {
                   verification
                 </p>
               </div>
-              <div className="flex text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4">
+              <div className="flex text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4 mt-auto">
                 <div className="max-w-[100px]">
                   <h5 className="font-bold text-lg text-[#0076ce]">Due Date</h5>
                   <p className="font-normal text-base">Every Year</p>
@@ -128,7 +128,7 @@ const JoinUs = () => {
                   confirm details.
                 </p>
               </div>
-              <div className="flex text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4">
+              <div className="flex text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4 mt-auto">
                 <div className="max-w-[95px]">
                   <h5 className="font-bold text-lg text-[#0076ce]">Due Date</h5>
                   <p className="font-normal text-base">Within 30 days</p>
@@ -155,7 +155,7 @@ const JoinUs = () => {
                   It's like an official report card for a company's documents
                 </p>
               </div>
-              <div className="flex gap-6 text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4">
+              <div className="flex gap-6 text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4 mt-auto">
                 <div className="max-w-[100px]">
                   <h5 className="font-bold text-lg text-[#0076ce]">Due Date</h5>
                   <p className="font-normal text-base">
@@ -186,7 +186,7 @@ const JoinUs = () => {
                   registrar.
                 </p>
               </div>
-              <div className="flex gap-6 text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4">
+              <div className="flex gap-6 text-start justify-between bg-[#f4f4f3] rounded-lg p-2 max-h-32 h-32 md:h-24 px-4 mt-auto">
                 <div className="max-w-[100px]">
                   <h5 className="font-bold text-lg text-[#0076ce]">Due Date</h5>
                   <p className="font-normal text-base">
